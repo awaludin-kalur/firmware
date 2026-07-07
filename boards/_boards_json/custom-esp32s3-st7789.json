@@ -44,5 +44,6 @@
     "require_upload_port": true,
     "speed": 921600
   },
-  "vendor": ""
+  "url": "https://github.com/awaludin-kalur/firmware",
+  "vendor": "MTBINET"
 }
