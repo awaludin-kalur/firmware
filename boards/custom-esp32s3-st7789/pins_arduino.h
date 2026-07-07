@@ -1,8 +1,12 @@
 // ============================================================
 // Custom board: ESP32-S3 DevKit + ST7789 1.14" 135x240 IPS
 // Pin mapping sesuai wiring yang disolder manual oleh user
-// (Sebelumnya bernama pins_arduino.h — di-rename supaya tidak
-//  bentrok dengan pins_arduino.h bawaan Arduino core / variant board)
+//
+// PENTING: nama file ini HARUS "pins_arduino.h" (bukan nama lain),
+// karena file cores/esp32/Arduino.h bawaan framework Arduino
+// melakukan #include "pins_arduino.h" secara langsung.
+// File ini ditemukan lewat include-path (-Iboards/custom-esp32s3-st7789)
+// yang didaftarkan di custom-esp32s3-st7789.ini, BUKAN lewat -include.
 // ============================================================
 
 #pragma once
