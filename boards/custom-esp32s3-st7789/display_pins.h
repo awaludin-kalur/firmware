@@ -1,6 +1,8 @@
 // ============================================================
 // Custom board: ESP32-S3 DevKit + ST7789 1.14" 135x240 IPS
 // Pin mapping sesuai wiring yang disolder manual oleh user
+// (Sebelumnya bernama pins_arduino.h — di-rename supaya tidak
+//  bentrok dengan pins_arduino.h bawaan Arduino core / variant board)
 // ============================================================
 
 #pragma once
